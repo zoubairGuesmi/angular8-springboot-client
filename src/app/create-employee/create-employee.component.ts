@@ -31,7 +31,6 @@ export class CreateEmployeeComponent implements OnInit {
 
   onSubmit(){
     this.employee = {
-      id: ,
       firstName:this.userForm.value.formValue['firstName'],
       lastName:this.userForm.value.formValue['lastName'],
       emailId:this.userForm.value.formValue['emailId']
